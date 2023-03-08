@@ -9,6 +9,11 @@
     src: url(../fonts/Lato/Lato-Regular.ttf);
 }
 
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -121,10 +126,29 @@ nav {
 
 .profileSection {
     display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 0 3rem;
 }
 
 .profile {
-    background-color: paleturquoise;
+    height: 22rem;
+    width: 22%;
     border-radius: 5%;
+    -webkit-box-shadow: -1px 1px 5px 9px rgba(224, 224, 224, 0.75);
+    -moz-box-shadow: -1px 1px 5px 9px rgba(224, 224, 224, 0.75);
+    box-shadow: -1px 5px 15px 4px rgba(224, 224, 224, 0.75);
     color: var(--secondaryBlack);
+    padding: 2rem .5rem;
+}
+
+.profilePic {
+    border-radius: 50%;
+    width: 6rem;
+}
+
+.name {
+    font-variant-caps: all-small-caps;
+    font-weight: 600;
+    font-family: Montserrat;
 }
