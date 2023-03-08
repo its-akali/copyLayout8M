@@ -1,11 +1,21 @@
+@font-face {
+    font-family: Lato;
+    src: url(../fonts/Lato/Lato-Regular.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Lato;
 }
 
 .purpleBackground {
     background-color: #7F4796;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 header {
