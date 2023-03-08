@@ -1,3 +1,9 @@
+:root {
+    --black: rgb(49, 49, 49);
+    --secondary: rgb(66, 66, 66);
+    --purple: #7F4796;
+}
+
 @font-face {
     font-family: Lato;
     src: url(../fonts/Lato/Lato-Regular.ttf);
@@ -16,7 +22,7 @@
 }
 
 .purpleBackground {
-    background-color: #7F4796;
+    background-color: var(--purple);
 }
 
 .bold {
@@ -40,8 +46,10 @@
 .whiteFilled {
     border: 2px solid white;
     background-color: white;
-    color: rgb(36, 36, 36);
+    color: var(--black);
 }
+
+/*--------------------------------------------- HEADER -------------------------------------------- */
 
 header {
     height: 68vh;
@@ -93,4 +101,24 @@ nav {
     width: 9rem;
     margin: 0 .3rem;
     text-align: center;
+}
+
+/*--------------------------------------------- EVENTS -------------------------------------------- */
+
+.events {
+    margin: 3.5rem;
+    text-align: center;
+    color: var(--black);
+}
+
+.events>h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.limitText {
+    width: 23.7rem;
+    text-align: justify;
+    margin: auto;
+    color: var(--secondary);
 }
