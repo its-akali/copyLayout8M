@@ -1,6 +1,6 @@
 :root {
     --black: rgb(49, 49, 49);
-    --secondary: rgb(66, 66, 66);
+    --secondaryBlack: rgb(66, 66, 66);
     --purple: #7F4796;
 }
 
@@ -15,12 +15,6 @@
     box-sizing: border-box;
     font-family: Lato;
 }
-
-.globalPadding {
-    padding-left: 8rem;
-    padding-right: 8rem;
-}
-
 .purpleBackground {
     background-color: var(--purple);
 }
@@ -54,7 +48,7 @@
 header {
     height: 68vh;
     color: white;
-    padding-top: 6rem;
+    padding: 6rem 8rem 0 8rem;
 }
 
 nav {
@@ -64,6 +58,8 @@ nav {
     align-items: center;
     width: 100%;
     height: 6rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
 }
 
 .menu {
@@ -119,6 +115,16 @@ nav {
 .limitText {
     width: 23.7rem;
     text-align: justify;
-    margin: auto;
-    color: var(--secondary);
+    margin: 0 auto 3rem auto;
+    color: var(--secondaryBlack);
+}
+
+.profileSection {
+    display: flex;
+}
+
+.profile {
+    background-color: paleturquoise;
+    border-radius: 5%;
+    color: var(--secondaryBlack);
 }
