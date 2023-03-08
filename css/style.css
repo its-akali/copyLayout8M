@@ -30,6 +30,7 @@
     padding: .7rem 0;
     border-radius: 5%;
     width: 100%;
+    font-size: .8rem;
 }
 
 .whiteBorder {
@@ -39,7 +40,7 @@
 .whiteFilled {
     border: 2px solid white;
     background-color: white;
-    color: #7F4796;
+    color: rgb(36, 36, 36);
 }
 
 header {
@@ -64,6 +65,32 @@ nav {
 .menu>li {
     display: inline-block;
     width: 7rem;
+    margin: 0 .3rem;
+    text-align: center;
+}
+
+.allHeaderItems {
+    width: 50%;
+    height: 80%;
+    margin-top: 1rem;
+}
+
+.allHeaderItems>h1 {
+    font-size: 3.3rem;
+}
+
+.allHeaderItems>p {
+    font-size: 1.13rem;
+    margin: 2.5rem 0;
+}
+
+.headerButtonContainer {
+    width: 100%;
+    display: flex;
+}
+
+.headerButton {
+    width: 9rem;
     margin: 0 .3rem;
     text-align: center;
 }
