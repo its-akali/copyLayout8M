@@ -10,6 +10,11 @@
     font-family: Lato;
 }
 
+.globalPadding {
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
 .purpleBackground {
     background-color: #7F4796;
 }
@@ -18,8 +23,27 @@
     font-weight: bold;
 }
 
+.button {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: .7rem 0;
+    border-radius: 5%;
+    width: 100%;
+}
+
+.whiteBorder {
+    border: 2px solid white;
+}
+
+.whiteFilled {
+    border: 2px solid white;
+    background-color: white;
+    color: #7F4796;
+}
+
 header {
-    height: 20rem;
+    height: 68vh;
     color: white;
     padding-top: 6rem;
 }
@@ -42,23 +66,4 @@ nav {
     width: 7rem;
     margin: 0 .3rem;
     text-align: center;
-}
-
-.button {
-    display: block;
-    text-decoration: none;
-    color: white;
-    padding: .7rem 0;
-    border-radius: 5%;
-    width: 100%;
-}
-
-.whiteBorder {
-    border: 2px solid white;
-}
-
-.whiteFilled {
-    border: 2px solid white;
-    background-color: white;
-    color: #7F4796;
 }
