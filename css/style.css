@@ -94,8 +94,8 @@ nav {
 }
 
 .headerButton {
-    width: 9rem;
-    margin: 0 .3rem;
+    width: 8.5rem;
+    margin: 0 .4rem;
     text-align: center;
 }
 
@@ -188,8 +188,26 @@ nav {
     background-color: var(--purple);
     color: white;
     padding: 0 14.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.eventSignUpItems {
-
+.title {
+    width: 35%;
 }
+
+.title>p {
+    margin-bottom: 1rem;
+}
+
+.title>h3 {
+    line-height: 25px;
+}
+
+.buttons {
+    display: flex;
+    width: 35%;
+}
+
+/*--------------------------------------------- RIOTS -------------------------------------------- */
