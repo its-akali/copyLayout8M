@@ -140,6 +140,7 @@ nav {
     box-shadow: -1px 5px 15px 4px rgba(224, 224, 224, 0.75);
     color: var(--secondaryBlack);
     padding: 2rem .5rem;
+    text-align: center;
 }
 
 .profilePic {
@@ -150,5 +151,31 @@ nav {
 .name {
     font-variant-caps: all-small-caps;
     font-weight: 600;
-    font-family: Montserrat;
+    font-size: 1.1rem;
+    margin: .5rem 0;
+}
+
+.role {
+    font-variant-caps: all-small-caps;
+    font-size: .9rem;
+    background-color: #dfececde;
+    color: rgb(0, 95, 184);
+    width: fit-content;
+    padding: 0 .8rem .2rem .8rem;
+    
+}
+
+.longDecoration {
+    border-radius: 10% / 50%;
+}
+
+.shortDecoration {
+    border-radius: 15% / 50%;
+}
+
+.descriptionAndTime {
+    margin: 1.5rem 0;
+    padding: 0 1rem;
+    font-size: smaller;
+    line-height: 20px;
 }
