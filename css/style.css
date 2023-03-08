@@ -165,13 +165,17 @@ nav {
 }
 
 .shortDecoration {
-    border-radius: 15% / 50%;
+    border-radius: 20% / 50%;
 }
 
 .descriptionAndTime {
-    margin: 1.5rem 0;
+    margin: 1rem 0;
     padding: 0 1rem;
     font-size: smaller;
     line-height: 20px;
 }
 
+.socials>a>img {
+    width: 8.5%;
+    margin: 0 .3rem;
+}
