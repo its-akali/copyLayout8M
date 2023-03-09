@@ -130,9 +130,9 @@ nav {
     height: 22rem;
     width: 22%;
     border-radius: 5%;
-    -webkit-box-shadow: -1px 1px 5px 9px rgba(224, 224, 224, 0.75);
-    -moz-box-shadow: -1px 1px 5px 9px rgba(224, 224, 224, 0.75);
-    box-shadow: -1px 5px 15px 4px rgba(224, 224, 224, 0.75);
+    -webkit-box-shadow: 1px 3px 12px 1px rgba(177, 177, 177, 0.75);
+    -moz-box-shadow: 1px 3px 12px 1px rgba(177, 177, 177, 0.75);
+    box-shadow: 1px 3px 12px 1px rgba(177, 177, 177, 0.75);
     color: var(--secondaryBlack);
     padding: 2rem .5rem;
     text-align: center;
@@ -215,6 +215,24 @@ nav {
 .riots {
     text-align: center;
     color: var(--black);
-    margin: 3.5rem;
+    margin: 0 14rem;
+}
+
+.riotWrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.riotDetails {
+    width: 48%;
+    height: 10rem;
+    margin: 1%;
+    padding: 1.5rem;
+    text-align: left;
+    border-radius: 5%;
+    -webkit-box-shadow: 1px 3px 12px 1px rgba(177, 177, 177, 0.75);
+    -moz-box-shadow: 1px 3px 12px 1px rgba(177, 177, 177, 0.75);
+    box-shadow: 1px 3px 12px 1px rgba(177, 177, 177, 0.75);
+    color: var(--secondaryBlack);
 }
 
