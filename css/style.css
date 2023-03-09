@@ -252,3 +252,21 @@ nav {
     font-weight: bold;
     color: rgb(56, 118, 199);
 }
+
+/*------------------------------------------- NEWSLETTER ------------------------------------------ */
+
+.newsletter {
+    background-color: var(--purple);
+    height: 45vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.newsletterContainer {
+    background-color: white;
+    width: 100%;
+    border-radius: 2% / 10%;
+    margin: 0 14.5rem;
+    padding: 1rem;
+}
