@@ -43,6 +43,12 @@
     color: var(--black);
 }
 
+.containerShadow {
+    -webkit-box-shadow: 1px 3px 12px 1px rgba(177, 177, 177, 0.75);
+    -moz-box-shadow: 1px 3px 12px 1px rgba(177, 177, 177, 0.75);
+    box-shadow: 1px 3px 12px 1px rgba(177, 177, 177, 0.75);
+}
+
 h2 {
     font-size: 2rem;
     margin-bottom: 1.5rem;
@@ -130,9 +136,6 @@ nav {
     height: 22rem;
     width: 22%;
     border-radius: 5%;
-    -webkit-box-shadow: 1px 3px 12px 1px rgba(177, 177, 177, 0.75);
-    -moz-box-shadow: 1px 3px 12px 1px rgba(177, 177, 177, 0.75);
-    box-shadow: 1px 3px 12px 1px rgba(177, 177, 177, 0.75);
     color: var(--secondaryBlack);
     padding: 2rem .5rem;
     text-align: center;
@@ -231,9 +234,6 @@ nav {
     padding: 1.5rem 3rem 1.5rem 1.5rem;
     text-align: left;
     border-radius: 5%;
-    -webkit-box-shadow: 1px 3px 12px 1px rgba(177, 177, 177, 0.75);
-    -moz-box-shadow: 1px 3px 12px 1px rgba(177, 177, 177, 0.75);
-    box-shadow: 1px 3px 12px 1px rgba(177, 177, 177, 0.75);
     color: var(--secondaryBlack);
 }
 
