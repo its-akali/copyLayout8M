@@ -270,17 +270,33 @@ nav {
     min-height: 60%;
     border-radius: 1.5% / 7%;
     margin: 0 15rem;
-    padding: 1rem;
+    padding: 2rem;
     display: flex;
     align-items: center;
 }
 
 .newsletterInfoText {
-    min-width: 40%;
+    min-width: 33%;
+    margin-right: 5%;
+}
+
+.newsletterInfoText>h3 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.newsletterInfoText>p {
+    color: var(--secondaryBlack);
+    font-size: .87rem;
 }
 
 .newsletterEmailInput {
     min-width: 40%;
+    margin-right: 3%;
+}
+
+.newsletterEmailInput>input {
+    width: 100%;
 }
 
 .newsletterContainer>a {
