@@ -1,6 +1,6 @@
 :root {
     --black: rgb(49, 49, 49);
-    --secondaryBlack: rgb(85, 85, 85);
+    --secondaryBlack: rgb(102, 102, 102);
     --purple: #7F4796;
 }
 
@@ -343,7 +343,7 @@ nav {
 .postContainer {
     display: flex;
     margin: 3rem 15rem;
-    gap: 1.3rem;
+    gap: 1rem;
 }
 
 .postItem {
@@ -393,15 +393,16 @@ nav {
 .blogItemContainer {
     width: 80%;
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
     margin-top: 3rem;
 }
 
 .blogItem {
     width: 100%;
     height: fit-content;
-    border: 1px solid black;
     text-align: left;
+    background-color: white;
+    border-radius: 5%;
 }
 
 .imgBackground {
@@ -409,6 +410,8 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-top-right-radius: 5% 14%;
+    border-top-left-radius: 5% 14%;
 }
 
 .blogItem:first-child>.imgBackground {
@@ -428,5 +431,16 @@ nav {
 }
 
 .blogTextBox {
-    padding: 1.5rem 2.7rem;
+    padding: 1.5rem 2.3rem;
+}
+
+.blogTime {
+    color: var(--secondaryBlack);
+    font-weight: normal;
+    font-size: 13px;
+    margin-left: .3rem;
+}
+
+.blogTextBox>p {
+    margin: 1.5rem 0;
 }
