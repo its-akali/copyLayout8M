@@ -324,3 +324,7 @@ nav {
     margin-top: 1.7rem;
     font-weight: bold;
 }
+
+.blueArrow {
+    color: rgb(0, 58, 112);
+}
