@@ -250,7 +250,7 @@ nav {
     color: var(--secondaryBlack);
 }
 
-.riotDetails>a {
+.learnMore {
     text-decoration: none;
     font-size: smaller;
     font-weight: bold;
