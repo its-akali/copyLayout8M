@@ -337,6 +337,7 @@ nav {
     align-items: center;
     text-align: center;
     background-color: whitesmoke;
+    color: var(--black);
 }
 
 .postContainer {
@@ -353,7 +354,6 @@ nav {
     align-items: center;
     text-align: left;
     border-radius: 3% / 5%;
-    color: var(--black);
 }
 
 .postItem:first-child {
