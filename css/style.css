@@ -381,3 +381,12 @@ nav {
     object-fit: cover;
     border-radius: 10%;
 }
+
+.blogContainer>h2 {
+    margin-top: 5rem;
+}
+
+.blogContainer>p {
+    width: 30%;
+    color: var(--secondaryBlack);
+}
