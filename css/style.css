@@ -328,3 +328,30 @@ nav {
 .blueArrow {
     color: rgb(0, 58, 112);
 }
+
+/*-------------------------------------------- BLOG ------------------------------------------- */
+
+.blogContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.postContainer {
+    display: flex;
+    width: 60%;
+}
+
+.postItem {
+    width: 50%;
+    margin: 3rem .5rem;
+    border: 1px solid black;
+}
+
+.postItem>img {
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    border-radius: 10%;
+}
