@@ -336,21 +336,43 @@ nav {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    background-color: whitesmoke;
 }
 
 .postContainer {
     display: flex;
     margin: 3rem 15rem;
-    gap: 1rem;
+    gap: 1.3rem;
 }
 
 .postItem {
     width: 50%;
-    padding: 2rem;
-    border: 1px solid black;
+    min-height: 13rem;
+    padding: 1.5rem;
     display: flex;
     align-items: center;
     text-align: left;
+    border-radius: 3% / 5%;
+    color: var(--black);
+}
+
+.postItem:first-child {
+    background-color: white;
+}
+
+.postItem:last-child {
+    border: 1px solid rgb(228, 228, 228);
+}
+
+.postItem>div>h3 {
+    line-height: 25px;
+}
+
+.postItem>div>p {
+    color: var(--secondaryBlack);
+    font-size: 14px;
+    line-height: 22px;
+    margin: .7rem 3rem .7rem 0;
 }
 
 .postItem>img {
