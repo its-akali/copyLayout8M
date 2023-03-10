@@ -447,3 +447,15 @@ nav {
 .blogTextBox>p {
     margin: 1.5rem 0;
 }
+
+.blogContainer>a {
+    text-decoration: none;
+    color: var(--darkBlue);
+    background-color: var(--lightBlue);
+    border-radius: 10% / 100%;
+    padding: .2rem .7rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+/*------------------------------------------- QUESTIONS ------------------------------------------ */
