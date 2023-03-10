@@ -340,13 +340,17 @@ nav {
 
 .postContainer {
     display: flex;
-    width: 60%;
+    margin: 3rem 15rem;
+    gap: 1rem;
 }
 
 .postItem {
     width: 50%;
-    margin: 3rem .5rem;
+    padding: 2rem;
     border: 1px solid black;
+    display: flex;
+    align-items: center;
+    text-align: left;
 }
 
 .postItem>img {
