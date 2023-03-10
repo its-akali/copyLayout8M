@@ -2,6 +2,8 @@
     --black: rgb(49, 49, 49);
     --secondaryBlack: rgb(102, 102, 102);
     --purple: #7F4796;
+    --lightBlue: #dfececde;
+    --darkBlue: rgb(56, 118, 199);
 }
 
 @font-face {
@@ -47,6 +49,14 @@
     -webkit-box-shadow: 1px 3px 12px 1px rgba(177, 177, 177, 0.75);
     -moz-box-shadow: 1px 3px 12px 1px rgba(177, 177, 177, 0.75);
     box-shadow: 1px 3px 12px 1px rgba(177, 177, 177, 0.75);
+}
+
+.longHighlight {
+    border-radius: 10% / 50%;
+}
+
+.shortHighlight {
+    border-radius: 20% / 50%;
 }
 
 h2 {
@@ -156,19 +166,12 @@ nav {
 .role {
     font-variant-caps: all-small-caps;
     font-size: .9rem;
-    background-color: #dfececde;
-    color: rgb(0, 95, 184);
+    font-weight: bold;
+    background-color: var(--lightBlue);
+    color: var(--darkBlue);
     width: fit-content;
     padding: 0 .8rem .2rem .8rem;
     
-}
-
-.longDecoration {
-    border-radius: 10% / 50%;
-}
-
-.shortDecoration {
-    border-radius: 20% / 50%;
 }
 
 .descriptionAndTime {
