@@ -390,3 +390,39 @@ nav {
     width: 30%;
     color: var(--secondaryBlack);
 }
+
+.blogItemContainer {
+    width: 80%;
+    display: flex;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+
+.blogItem {
+    width: 100%;
+    height: fit-content;
+    border: 1px solid black;
+}
+
+.imgBackground {
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blogItem:first-child>.imgBackground {
+    background-color: #bbeb83;
+}
+
+.blogItem:nth-child(2)>.imgBackground {
+    background-color: #e8e4e4;
+}
+
+.blogItem:last-child>.imgBackground {
+    background-color: #dcfcf4;
+}
+
+.imgBackground>img {
+    height: 37%;
+}
