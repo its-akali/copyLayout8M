@@ -537,3 +537,22 @@ nav {
 }
 
 /*--------------------------------------------- FOOTER -------------------------------------------- */
+
+footer {
+    background-color: var(--black);
+    color: white;
+    min-width: 1vw;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer>p {
+    width: 50%;
+}
+
+.socialsFooterIcons>a>img {
+    width: 8%;
+    margin: 0.3rem;
+}
