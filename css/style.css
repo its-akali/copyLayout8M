@@ -17,6 +17,7 @@
     box-sizing: border-box;
     font-family: Lato;
 }
+
 .purpleBackground {
     background-color: var(--purple);
 }
@@ -529,7 +530,7 @@ nav {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr 1fr;
-    margin: 3rem 0;
+    margin: 4rem 0;
 }
 
 .supportPics>img {
@@ -540,19 +541,24 @@ nav {
 
 footer {
     background-color: var(--black);
-    color: white;
-    min-width: 1vw;
+    color: whitesmoke;
+    width: 100%;
     height: 6rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding: 0 10rem;
 }
 
 footer>p {
-    width: 50%;
+    width: fit-content;
+}
+
+.socialsFooterIcons {
+    width: 10%;
 }
 
 .socialsFooterIcons>a>img {
-    width: 8%;
+    width: 20%;
     margin: 0.3rem;
 }
